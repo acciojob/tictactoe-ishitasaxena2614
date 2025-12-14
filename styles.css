@@ -1,35 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
   text-align: center;
-}
-
-.container {
-  margin-top: 40px;
-}
-
-.form-group {
-  margin: 10px;
-}
-
-input {
-  padding: 8px;
-  width: 200px;
-}
-
-button {
-  padding: 10px 20px;
-  margin-top: 15px;
-  cursor: pointer;
-}
-
-.hidden {
-  display: none;
+  font-family: Arial;
 }
 
 .board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  grid-gap: 5px;
+  gap: 5px;
   justify-content: center;
   margin-top: 20px;
 }
@@ -46,8 +23,9 @@ button {
 }
 
 .message {
-  font-size: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
+
 
 
